@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container{
+    background-color: black;
+    width: 900px;
+    margin: auto;
+}
+
+.company-name{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCAF02;
+    height: 42px;
+}
+
+.links{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links>li{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section-1{
+    color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+}
+
+.section-1-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-btn{
+    background-color: #FCAF02;
+    width: 160px;
+    padding: 9px 50px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.section-2{
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+input{
+    padding: 13px 20px;
+    background-color: black;
+    border: 1px solid #FCAF02;
+    border-radius: 30px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.submit-btn{
+    background-color: #FCAF02;
+    width: 180px;
+    padding: 10px 20px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.section-3{
+    color:#FFFFFF;
+    padding: 30px;
+}
+
+table, th, td {
+    color: #FCAF02;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: start;
+}
+
+table, th{
+    border: 1px solid #FCAF02;
+}
+
+td{
+    border-right: 1px solid #FCAF02;
+}
